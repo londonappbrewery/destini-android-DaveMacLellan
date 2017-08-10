@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
                         mAnswerTopButton.setText(getResources().getString(R.string.T3_Ans1));
                         mAnswerBottomButton.setText(getResources().getString(R.string.T3_Ans2));
                         mStoryTextView.setText(getResources().getString(R.string.T3_Story));
+                        mStoryIndex = 3;
                         break;
                     case 3:
                         mStoryTextView.setText(getResources().getString(R.string.T6_End));
